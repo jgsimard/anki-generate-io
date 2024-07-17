@@ -5,7 +5,12 @@ description = "Add your description here"
 authors = [
     { name = "jgsimard", email = "jeangab23@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "ruff>=0.5.2",
+    "pytesseract>=0.3.10",
+    "requests>=2.32.3",
+    "pre-commit>=3.7.1",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
